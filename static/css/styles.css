@@ -3,6 +3,10 @@ body{
     font-family: 'Public Sans';
 }
 
+a {
+    text-decoration: none;
+}
+
 #header {
     position: fixed;
     width: 100%;
