@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover IT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link href="static/css/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
@@ -31,72 +33,121 @@
     <div id="header-back">
         <p>¿Querés eficientizar tus procesos y lograr mejores rendimientos?</p>
     </div>
-    <div class="content">
-        <div class="torre">
-            <h2>Una experiencia de consultoría y transformación digital <strong>hecha para vos!</strong></h2>
-            <h3>El equipo de DiscoverIT se preocupa de verdad por lograr una implementación exitosa para tu organización, tomando en cuenta su contexto, ventajas y retos.</h3>
-        </div>
-        <div class="torre" style="border: 1px solid #C8C3C3; padding:10px;">
-            <div class="bullet-image">
-                <div class="image"><img src="static/imgs/bullet-idea.png"></div>
-                <div class="text">
-                    <p><strong>Plan de consultoría a medida.</strong> Realizamos un diagnóstico de tu status y problemanticas para solucionarlos juntos.</p>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+                <h2>Una experiencia de consultoría y transformación digital <strong>hecha para vos!</strong></h2>
+                <h5>El equipo de DiscoverIT se preocupa de verdad por lograr una implementación exitosa para tu organización, tomando en cuenta su contexto, ventajas y retos.</h5>
+            </div>
+            <div class="col" style="border: 1px solid #C8C3C3; padding:10px;">
+                <div class="bullet-image">
+                    <div class="image"><img src="static/imgs/bullet-idea.png"></div>
+                    <div class="text">
+                        <p><strong>Plan de consultoría a medida.</strong> Realizamos un diagnóstico de tu status y problemanticas para solucionarlos juntos.</p>
+                    </div>
+                </div>
+                <div class="bullet-image">
+                    <div class="image"><img src="static/imgs/bullet-inversion.png"></div>
+                    <div class="text">
+                        <p><strong>Inversión justa de tiempo y dinero.</strong> Trabajamos con objetivos cortos y concretos, a un irtmo manejable para tu personal.</p>
+                    </div>
+                </div>
+                <div class="bullet-image">
+                    <div class="image"><img src="static/imgs/bullet-gestion.png"></div>
+                    <div class="text">
+                        <p><strong>Gestión proactiva del Proyecto.</strong> Adaptamos el plan según el avance y orientamos a tus lideres para asegurar el éxito del proyecto.</p>
+                    </div>
                 </div>
             </div>
-            <div class="bullet-image">
-                <div class="image"><img src="static/imgs/bullet-inversion.png"></div>
-                <div class="text">
-                    <p><strong>Inversión justa de tiempo y dinero.</strong> Trabajamos con objetivos cortos y concretos, a un irtmo manejable para tu personal.</p>
-                </div>
-            </div>
-            <div class="bullet-image">
-                <div class="image"><img src="static/imgs/bullet-gestion.png"></div>
-                <div class="text">
-                    <p><strong>Gestión proactiva del Proyecto.</strong> Adaptamos el plan según el avance y orientamos a tus lideres para asegurar el éxito del proyecto.</p>
-                </div>
-            </div>
         </div>
-    </div>
-
-    <!-- Inicio sección Nuestros servicios -->
-
-    <div class="content" id="nuestrosServicios" style="background: #EEECEC; padding: 50px 0">
-        <div class="torre">
-            <h1 style="text-align: center;">Qué tenemos para ofrecerte?</h1>
-        </div>
-        <div class="torre">
-            <h2 style="text-align: center;">Nuestros servicios</h2>
-            <ul>
-                <li>Diseño, desarrollo y estandarización de procesos.</li>
-                <li>Talleres de desarrollo de habilidades.</li>
-                <li>Consultoría e implementación de procesos de negocio.</li>
-                <li>Mejora continua.</li>
-                <li>Reingeniería de procesos.</li>
-                <li>Desarrollo e Implementación de Soluciones Digitales.</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Sub-sección ¿con qué procesos trabajamos? -->
     
-    <div class="content" style="justify-content: end; height:300px;">
-        <div class="torre">
-            <h1 style="text-align: center;">Con qué procesos trabajamos?</h1>
-        </div>
-    </div>
 
-    <!-- Sub-sección ¿qué tipo de soluciones desarrollamos? -->
-
-    <div class="content" id="nuestrosServicios" style="background: rgba(88, 5, 126, 0.65);; padding: 50px 0">
-        <div class="torre">
-            <h1 style="text-align: center; color:#fff">Qué tipo de soluciones desarrollamos?</h1>
+        <!-- Inicio sección Nuestros servicios -->
+        <div class="row mt-4" id="nuestrosServicios" style="background: #dfd7d7; padding: 50px 0">
+            <div class="col">
+                <h1 style="text-align: center;">Qué tenemos para ofrecerte?</h1>
+            </div>
+            <div class="col">
+                <h2 style="text-align: center;">Nuestros servicios</h2>
+                <ul>
+                    <li>Diseño, desarrollo y estandarización de procesos.</li>
+                    <li>Talleres de desarrollo de habilidades.</li>
+                    <li>Consultoría e implementación de procesos de negocio.</li>
+                    <li>Mejora continua.</li>
+                    <li>Reingeniería de procesos.</li>
+                    <li>Desarrollo e Implementación de Soluciones Digitales.</li>
+                </ul>
+            </div>
         </div>
-        <div class="torre">
-            <ul style="color:#fff">
-                <li>Bullet 1</li>
-                <li>Bullet 2</li>
-                <li>Bullet 3</li>
-            </ul>
+
+        <!-- Sub-sección ¿con qué procesos trabajamos? -->
+        <div class="row mt-3" id="solucionesWeb">
+            <h1>Soluciones web</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea blanditiis rerum reiciendis sunt, animi sapiente? Laborum dolorum, praesentium expedita aperiam optio eligendi quod quaerat repudiandae eum architecto ratione pariatur reiciendis earum numquam velit cumque excepturi ex delectus. Temporibus aut nam quo numquam mollitia laborum dolorum, quaerat, facere, sit amet nulla non architecto pariatur labore!</p>
+            <div class="row">
+                <div class="col-4 p-3">
+                    <img src="static/imgs/soluciones-web-1.png" width="100%" border="1">
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <h3>Cotizadores web</h3>
+                    </div>
+                    <div class="row">
+                        Módulos web dedicados a cotizar productos a partir de determinadas variables. Incluye un panel para ver las cotizaciones realizadas
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-3" style="background: #e2e2e2;">
+                <div class="col-8">
+                    <div class="row">
+                        <h3>Cobro online y suscripciones</h3>
+                    </div>
+                    <div class="row">
+                        Módulos web dedicados a cotizar productos a partir de determinadas variables. Incluye un panel para ver las cotizaciones realizadas
+                    </div>
+                </div>
+                <div class="col-4 p-3">
+                    <img src="static/imgs/soluciones-web-1.png" width="100%" border="1">
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-4 p-3">
+                    <img src="static/imgs/soluciones-web-1.png" width="100%" border="1">
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <h3>Simuladores</h3>
+                    </div>
+                    <div class="row">
+                        Módulos web dedicados a cotizar productos a partir de determinadas variables. Incluye un panel para ver las cotizaciones realizadas
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-2"></div>
+                <div class="d-grid col-7 gap-2">
+                    <button class="btn btn-primary" type="button">Cotizá tu solución</button>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-3 p-3" style="background-color: #cfcfcf">
+            <h1>Contacto</h1>
+            <div class="col-3"></div>
+            <div class="col-6 p-3">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Dirección de email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
         </div>
     </div>
 
