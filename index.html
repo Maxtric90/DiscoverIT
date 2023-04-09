@@ -8,21 +8,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link href="static/css/styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ca34965569.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
         <div id="header-logo">
             <div id="logo-ficticio">
-                LOGO
+                <img src="static/imgs/dark_logo_white_background.jpg" width="100%">
             </div>
         </div>
         <div id="header-botonera">
-            <div class="boton-header round">
-                Contáctanos
-            </div>
-            <div class="boton-header">
-                La empresa
-            </div>
+            <a href="#nuestrosServicios">
+                <div class="boton-header round">
+                    Contáctanos
+                </div>
+            </a>
+            <a href="#nuestrosServicios">
+                <div class="boton-header">
+                    La empresa
+                </div>
+            </a>
             <a href="#nuestrosServicios">
                 <div class="boton-header">
                     Nuestros Servicios
@@ -64,26 +69,46 @@
 
         <!-- Inicio sección Nuestros servicios -->
         <div class="row mt-4" id="nuestrosServicios" style="background: #dfd7d7; padding: 50px 0">
-            <div class="col">
-                <h1 style="text-align: center;">Qué tenemos para ofrecerte?</h1>
+            <div class="col container d-flex">
+                <div class="row align-self-center mx-auto">
+                    <h1 style="text-align: center;">Nuestra filosofía</h1>
+                </div>
             </div>
-            <div class="col">
-                <h2 style="text-align: center;">Nuestros servicios</h2>
-                <ul>
-                    <li>Diseño, desarrollo y estandarización de procesos.</li>
-                    <li>Talleres de desarrollo de habilidades.</li>
-                    <li>Consultoría e implementación de procesos de negocio.</li>
-                    <li>Mejora continua.</li>
-                    <li>Reingeniería de procesos.</li>
-                    <li>Desarrollo e Implementación de Soluciones Digitales.</li>
-                </ul>
+            <div class="col container d-flex">
+                <div class="row align-self-center mx-auto">
+                    <p class="mb-0"><i>Brindamos soluciones modulares y ágiles, para que los clientes puedan responder rápidamente
+                        a las necesidades del mercado. Creemos en el enfoque de probar rápido y modificar temprano.
+                        Así es que atendemos los requerimientos de nuestros clientes, en forma de módulos
+                        escalables que permitan lanzar soluciones ágilmente y evolucionarlas, a partir de la
+                        retroalimentación del mercado.</i></p>
+                </div>
             </div>
         </div>
 
-        <!-- Sub-sección ¿con qué procesos trabajamos? -->
+        <!-- Sub-sección SOLUCIONES WEB -->
         <div class="row mt-3" id="solucionesWeb">
             <h1>Soluciones web</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea blanditiis rerum reiciendis sunt, animi sapiente? Laborum dolorum, praesentium expedita aperiam optio eligendi quod quaerat repudiandae eum architecto ratione pariatur reiciendis earum numquam velit cumque excepturi ex delectus. Temporibus aut nam quo numquam mollitia laborum dolorum, quaerat, facere, sit amet nulla non architecto pariatur labore!</p>
+            <p>Desarrollos a medida responsive (visible tanto sen computadoras, como en dispositivos
+                móviles), para ofrecer soluciones profesionales y accesibles 24-7 desde cualquier dispositivo.</p>
+            <p>Realizamos el diseño de la solución en conjunto con el cliente, considerando las últimas
+                tendencias en user experience, y desarrollamos el front-end y back-end mediante metodología
+                agile de gestión de proyectos.</p>
+            <h5>Tecnologías</h5>
+            <div class="row mt-3 mb-3">
+                <div class="col-3">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="fa-brands fa-html5 fa-2xl" style="margin-right:0.2rem;"></li>
+                        <li class="fa-brands fa-css3-alt fa-2xl" style="margin-right:0.2rem;"></li>
+                        <li class="fa-brands fa-square-js fa-2xl" style="margin-right:0.2rem;"></li>
+                        <li class="fa-brands fa-react fa-2xl" style="margin-right:0.2rem;"></li>
+                        <li class="fa-brands fa-python fa-2xl" style="margin-right:0.2rem;"></li>
+                    </ul>
+                </div>
+                <div class="col-9">
+
+                </div>
+            </div>
+                            
             <div class="row">
                 <div class="col-4 p-3">
                     <img src="static/imgs/soluciones-web-1.png" width="100%" border="1">
@@ -93,7 +118,13 @@
                         <h3>Cotizadores web</h3>
                     </div>
                     <div class="row">
-                        Módulos web dedicados a cotizar productos a partir de determinadas variables. Incluye un panel para ver las cotizaciones realizadas
+                        <p>Cuando el precio del producto o servicio que comercializas, depende de diversas variables y
+                            reglas de decisión, es importante contar con cotizadores online confiables y robustos.</p>
+                        <p>En este ejemplo, se incluye un panel para visualizar distintas métricas de las cotizaciones
+                        realizadas, y un panel administrador para gestionar en forma independiente las distintas
+                        variables que impactan en los precios.</p>
+                        <p><strong>Implementá tu Cotizador para acortar la brecha entre tus clientes potenciales y el producto
+                        que ofrecés!</strong></p>
                     </div>
                 </div>
             </div>
@@ -103,7 +134,15 @@
                         <h3>Cobro online y suscripciones</h3>
                     </div>
                     <div class="row">
-                        Módulos web dedicados a cotizar productos a partir de determinadas variables. Incluye un panel para ver las cotizaciones realizadas
+                        <p>Hoy en día, es imposible pensar un modelo de negocio que contemple medios de cobro
+                            tradicionales. Es importante, ofrecer inmediatez en la gestión de cobro con los clientes
+                            mediante opciones online de tarjeta de crédito o billetera virtuales.</p>
+                        <p>Tenemos experiencia conectándonos a diferentes gateway de cobros, tanto para pagos de
+                            única vez como en suscripciones recurrentes.</p>
+                        <p>Entender la evolución de los cobros y los medios preferidos por los clientes/suscriptores, es
+                            clave para maximizar los beneficios. Es por esto, que adicionamos paneles y tableros de
+                            información para poder monitorear en tiempo real el comportamiento de tu negocio.</p>
+                        <p><strong>Brindá opciones de cobro sencillas y modernas a tus clientes, con nuestras soluciones!</strong></p>
                     </div>
                 </div>
                 <div class="col-4 p-3">
@@ -116,16 +155,69 @@
                 </div>
                 <div class="col-8">
                     <div class="row">
-                        <h3>Simuladores</h3>
+                        <h3>Procesos Ad-Hoc</h3>
                     </div>
                     <div class="row">
-                        Módulos web dedicados a cotizar productos a partir de determinadas variables. Incluye un panel para ver las cotizaciones realizadas
+                        <p>Profesionalizá la gestión de tu empresa creando flujos de trabajo personalizados, circuitos con
+                            firma electrónica, sistemas de inventario y control de ventas, donde todas las acciones queden
+                            registradas.</p>
+                        <p>Mejorá la experiencia de tus clientes y eficientizá las gestiones internas, mediante portales de
+                            acceso a clientes para gestiones automáticas, sistema de puntos o beneficios, e-commerce,
+                            etc.</p>
+                        <p><strong>Volvé a tener el control de tus procesos, mediante soluciones robustas en la web.</strong></p>
                     </div>
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col-2"></div>
-                <div class="d-grid col-7 gap-2">
+                <div class="d-grid col-8 gap-2">
+                    <button class="btn btn-primary" type="button">Cotizá tu solución</button>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+
+        <!-- Sub-sección SOLUCIONES OFFICE -->
+        <div class="row mt-3" id="solucionesWeb">
+            <h1>Soluciones office</h1>
+            <p>Cuando necesitamos soluciones rápidas y económicas, para entornos internos y controlados,
+                las soluciones en paquete office suelen ser las más adecuadas.</p>
+            <p>Esta plataforma es ideal cuando no tenemos en claro la solución final y necesitamos testear
+                herramientas para solucionar un problema hoy, mientras diseñamos la solución del futuro.</p>
+                            
+            <div class="row">
+                <div class="col-4 p-3">
+                    <img src="static/imgs/soluciones-web-1.png" width="100%" border="1">
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <h3>Planillas excel formuladas</h3>
+                    </div>
+                    <div class="row">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsam corporis ipsum vel aut ducimus quaerat? Fuga, impedit? Nostrum, quis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-3" style="background: #e2e2e2;">
+                <div class="col-8">
+                    <div class="row">
+                        <h3>Macros Excel, Word y Powerpoint</h3>
+                    </div>
+                    <div class="row">
+                        <p>¿Estás cansado de generar cientos de veces el mismo reporte con pequeñas variaciones de
+                            datos?</p>
+                        <p>¿Te molesta tener que procesar información de distintos archivos con formatos distintos?</p>
+                        <p>¿Necesitás distribuir exceles entre tu equipo para realizar cálculos complejos, pero querés un
+                            formato robusto y seguro?</p>
+                    </div>
+                </div>
+                <div class="col-4 p-3">
+                    <img src="static/imgs/soluciones-web-1.png" width="100%" border="1">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-2"></div>
+                <div class="d-grid col-8 gap-2">
                     <button class="btn btn-primary" type="button">Cotizá tu solución</button>
                 </div>
                 <div class="col-2"></div>
