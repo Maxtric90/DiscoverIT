@@ -112,6 +112,10 @@ h3 {
     color: #332947;
 }
 
+strong{
+    color: #332947;
+}
+
 .bullet-image{
     display:flex;
     flex-wrap:nowrap;
