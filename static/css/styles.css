@@ -1,5 +1,10 @@
 a {
     text-decoration: none;
+    color:black
+}
+
+.caption {
+    font-size: 10px;
 }
 
 #header {
@@ -163,6 +168,11 @@ li{
     line-height: 28px;
 }
 
+.link_image{
+    border: 1px solid black;
+    width: 100%;
+}
+
 @media screen and (max-width: 640px) {
     .boton-header{
         font-size: 20px;
@@ -182,4 +192,5 @@ li{
         width:40%;
     }
 }
+
 
