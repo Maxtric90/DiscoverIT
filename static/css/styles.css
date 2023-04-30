@@ -29,7 +29,7 @@ a {
     left: 0px;
     top: 0px;
     align-items: center;
-    background: url(../imgs/header-back.png);
+    background: url(../imgs/header-back.jpg);
     background-size: cover;
 }
 
@@ -119,6 +119,27 @@ h3 {
 
 strong{
     color: #332947;
+}
+
+footer{
+    padding: 0.3rem;
+    /* background-color: #c0c0c0; */
+    background-color: black;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+footer strong{
+    color: #7e6ba3;
+}
+
+footer a{
+    margin: 5px 8px;
 }
 
 .bullet-image{
