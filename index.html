@@ -209,7 +209,7 @@
             <div class="row mt-0 p-3" style="background-color: #ae89ff;">
                 <div class="col-2"></div>
                 <div class="d-grid col-8 gap-2">
-                    <button class="btn btn-primary btn-dark" type="button">Cotizá tu solución</button>
+                    <a class="btn btn-primary btn-dark" type="button" href="#contactanos">Cotizá tu solución</a>
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -257,7 +257,7 @@
             <div class="row mt-0 p-3" style="background-color: #ae89ff;">
                 <div class="col-2"></div>
                 <div class="d-grid col-8 gap-2">
-                    <button class="btn btn-primary btn-dark" type="button">Cotizá tu solución</button>
+                    <a class="btn btn-primary btn-dark" type="button" href="#contactanos">Cotizá tu solución</a>
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -267,15 +267,17 @@
                 <h1>Contacto</h1>
                 <div class="col-sm-3"></div>
                 <div class="col-sm-6 p-3">
-                    <form>
+                    <form action="https://formsubmit.co/contacto@mutera.com.ar" method="POST"/>
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Dirección de email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" name="Email">
                             </div>
                             <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Mensaje"></textarea>
                             </div>
+                            <input type="hidden" name="_next" value="http://mutera.com.ar/mensaje_enviado.html">
+                            <input type="hidden" name="_captcha" value="false">
                             <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
